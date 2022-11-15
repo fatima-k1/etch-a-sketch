@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.grid-cell {
+    width: 31.1px;
+    height: 31.13px;
+    border: 1px solid black;
+}
