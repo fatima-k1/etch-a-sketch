@@ -1,5 +1,5 @@
 //create a 16x16 grid of square divs
-function createGrid(num) {
+/*function createGrid(num) {
     const container = document.querySelector('.container');
     container.textContent = '';
 
@@ -22,4 +22,4 @@ let cells = document.querySelectorAll('.grid-cell');
     cells.forEach(cell => {
         cell.addEventListener('mouseover', () =>
         cell.style.backgroundColor = 'black');
-    })
+    })*/
