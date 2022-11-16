@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    padding: 20px 0 0;
+    padding-top: 1px;
     height: 100%;
     background: rgb(0,154,23);
     background: linear-gradient(0deg,
@@ -24,6 +24,13 @@ body {
     -webkit-box-reflect: right;
 }
 
+h1{
+    font-family: 'Satisfy', cursive;
+    color: #ecf4f8;
+    text-align: center;
+    font-size: 60px;
+
+}
 /*
 .container {
     display: flex;
