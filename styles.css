@@ -18,7 +18,7 @@ body {
 }
 
 .grid-cell {
-    width: 31.1px;
-    height: 31.13px;
+    /*width: 31.1px;
+    height: 31.13px;*/
     border: 1px solid black;
 }
