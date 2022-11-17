@@ -22,4 +22,14 @@ let cells = document.querySelectorAll('.grid-cell');
     cells.forEach(cell => {
         cell.addEventListener('mouseover', () =>
         cell.style.backgroundColor = 'black');
-    })*/
+    })
+
+//enable color change
+let usrColor = document.getElementById('usr-color');
+
+usrColor.addEventListener('input', () => {
+    cells.forEach(cell => {
+        cell.addEventListener('mouseover', () =>
+        cell.style.backgroundColor = usrColor.value);
+    });
+}) */

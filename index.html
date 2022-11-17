@@ -9,9 +9,22 @@
         <title>Etch-a-Sketch</title>
     </head>
     <body>
-        <div class="wrapper">
+        <div class="main">
             <h1>Garden of Imagination</h1>
-            <div class="container"></div>
+            <div class="wrapper">
+                <div class="options">
+                    <label for="usr-color">Colour:</label>
+                        <input type="color" id="usr-color" name="usr-color" value="black">
+                    <div class="btns" id="random">Random</div>
+                    <div class="btns" id="eraser">Eraser</div>
+                    <label for="size" id="value">16x16</label><br>
+                        <input type="range" id="size" name="size" min="1" max="60" value="16">
+                    <div class="btns" id="clear">Clear</div>
+                </div>
+                <div class="container">
+
+                </div>
+            </div>
             <img src="garden.png"
                 alt="garden"
             >
