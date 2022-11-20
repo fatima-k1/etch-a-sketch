@@ -103,3 +103,15 @@ function activateBtn(btn) {
         colorBtn.style.color = '#fceef1'
     }
 }
+
+//add help
+const helpBtn = document.getElementById('help-btn');
+const closeBtn = document.querySelector('.close');
+const help = document.querySelector('.help');
+
+helpBtn.onclick = () => help.style.display = 'block';
+closeBtn.onclick = () => help.style.display = 'none';
+window.onclick = function(e) {
+    if(e.target === help){
+        help.style.display = 'none'
+}}
