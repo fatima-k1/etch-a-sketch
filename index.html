@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b7f506945b.js" crossorigin="anonymous"></script>
         <script src="index.js" defer></script>
         <title>Etch-a-Sketch</title>
     </head>
     <body>
-        <div class="container"></div>
+        <div class="main">
+            <div style="text-align: center;">
+                <h1>Garden of Imagination</h1>
+                <i class="fa-regular fa-circle-question fa-3x" id="help-btn" style="margin-top: -30px; cursor: pointer;"></i>
+            </div>
+            <div class="wrapper">
+                <div class="options">
+                    <label for="usr-color" class="btns" id="color-btn">Colour:</label><br>
+                        <input type="color" id="usr-color" name="usr-color" value="#000000">
+                    <div class="btns" id="random">Random</div>
+                    <div class="btns" id="eraser">Eraser</div>
+                    <label for="size" id="value">16x16</label><br>
+                        <input type="range" id="size" name="size" min="1" max="60" value="16">
+                    <div class="btns" id="clear">Clear</div>
+                </div>
+                <div class="container">
+
+                </div>
+            </div>
+            <img src="garden.png"
+                alt="garden"
+            >
+        </div>
+        <div class="help">
+            <div class="content">
+                <span class="close">&times;</span>
+                <p>Click and drag on the sketchpad to draw</p>
+                <p>Options:</p>
+                <ul>
+                    <li>Color: pick a colour of your choice</li>
+                    <li>Random: go colour-crazy!</li>
+                    <li>Eraser: erase what you want</li>
+                    <li>Slider: change the size</li>
+                    <li>Clear: start over</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
